@@ -332,8 +332,8 @@
             "skyblockclientupdater"
         ],
         "forge_id": "skyblockclientupdater",
-        "file": "SkyblockClient-Updater-1.1.1.jar",
-        "url": "https://github.com/nacrt/SkyblockClient-Updater/releases/download/v1.1.1/SkyblockClient-Updater-1.1.1.jar",
+        "file": "SkyblockClient-Updater-1.1.2.jar",
+        "url": "https://github.com/nacrt/SkyblockClient-Updater/releases/download/v1.1.2/SkyblockClient-Updater-1.1.2.jar",
         "display": "SkyClient Updater",
         "description": "Adds in-game updater for the mods in SkyClient.",
         "enabled": true,
@@ -470,6 +470,9 @@
         ],
         "categories": [
             "1;Recommended"
+        ],
+        "files": [
+            "W-OVERFLOW/CrashPatch/SKYCLIENT"
         ]
     },
     {
@@ -557,9 +560,9 @@
             "skyblockaddons"
         ],
         "forge_id": "skyblockaddons",
-        "file": "SkyblockAddons-1.7.0-beta.16915-for-MC-1.8.9.jar",
-        "hash": "0323477e263c97dd2e2b4142bd36cb434c022c16e8bb7855bb139ee03baa49c4",
-        "url": "https://cdn.discordapp.com/attachments/661779636983955466/934958110311870484/SkyblockAddons-1.7.0-beta.16915-for-MC-1.8.9.jar",
+        "file": "SkyblockAddons-1.7.0-beta.16934-for-MC-1.8.9.jar",
+        "hash": "5edaf4cba56654ad25454b8d17b8a9238ad7925ee797b506e08b8a1e4a82768e",
+        "url": "https://cdn.discordapp.com/attachments/661779636983955466/937217821476257822/SkyblockAddons-1.7.0-beta.16934-for-MC-1.8.9.jar",
         "display": "SkyblockAddons",
         "description": "Essential QOL Skyblock mod with a plethora of indispensable (yet outdated) features, locking slots, timers, and a ton more to discover!",
         "icon": "bisquit.png",
@@ -927,9 +930,9 @@
             "dungeonrooms"
         ],
         "forge_id": "dungeonrooms",
-        "file": "Dungeon_Rooms-3.2.4.jar",
-        "hash": "3f0f416a9f167188693f69e1d3e7493b1f6e2d4c71244d28b8ffd2742741a012",
-        "url": "https://github.com/Quantizr/DungeonRoomsMod/releases/download/v3.2.4/Dungeon_Rooms-3.2.4.jar",
+        "file": "Dungeon_Rooms-3.3.0.jar",
+        "hash": "df6fbc7d921ec9d13864398868b6a9d723f547a3b194fa1b63e9df59810a928c",
+        "url": "https://github.com/Quantizr/DungeonRoomsMod/releases/download/v3.3.0/Dungeon_Rooms-3.3.0.jar",
         "display": "Dungeon Rooms",
         "icon": "drm.png",
         "description": "Displays dungeon room id/name and adds waypoints for secrets.",
@@ -1613,6 +1616,19 @@
         "creator": "TechnicianLP",
         "command": "No commands",
         "hidden": true
+    },
+    {
+        "id": "crashhelper",
+        "forge_id": "crashhelper",
+        "enabled": false,
+        "file": "CrashHelper-1.1.2.jar",
+        "url": "https://short.isxander.dev/qKYfzc",
+        "display": "Crash Helper",
+        "description": "Gives useful information about crashes in minecraft",
+        "icon": "isxander.png",
+        "icon_scaling": "pixel",
+        "creator": "isXander",
+        "update_to_id": "crashpatch"
     },
     {
         "id": "minecraft",
